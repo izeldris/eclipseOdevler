@@ -3,7 +3,7 @@ package abstracts;
 import entities.User;
 
 public interface IPersonService {
-	void add(User user);
+	void add(User user) throws Exception;
 
 	void update(User user);
 
