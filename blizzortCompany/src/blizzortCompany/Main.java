@@ -20,7 +20,7 @@ public class Main {
 	public static void main(String[] args) throws Exception {
 			PersonManager personManager=new PersonManager(new GovServiceAdapter());
 			Campaign campaign=new Campaign(1,"Sharp Shooters","A Campaign that special for only FPS lovers.",20,LocalDate.of(2021, 5, 15),LocalDate.of(2021, 5, 30));
-			User user=new User(1,1,"15001020304","Harun Emre","Altun",LocalDate.of(1995,8,28),"5392295167","QantaSS","q1w2e3r4","harunemrealtun@gmail.com","Bahçelievler,ÝSTANBUL",Gender.MALE);
+			User user=new User(1,1,"25070415004","Harun Emre","Altun",LocalDate.of(1995,8,28),"5392295167","QantaSS","q1w2e3r4","harunemrealtun@gmail.com","Bahçelievler,ÝSTANBUL",Gender.MALE);
 			personManager.add(user);
 			
 			SalesManager salesManager=new SalesManager();
